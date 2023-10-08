@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "about": "About",
+    "services":"Services Provided",
+    "certifications":"Certifications",
+    "clients":"Clients",
+    "about-id": "about",
+    "services-id": "services-provided",
+    "certifications-id": "certifications",
+    "clients-id": "clients"
+  },
+  "language-button": {
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  }
+}

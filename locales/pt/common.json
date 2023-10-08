@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "about": "Sobre",
+    "services":"Serviços Prestados",
+    "certifications":"Certificações",
+    "clients":"Clientes",
+    "about-id": "sobre",
+    "services-id": "servicos",
+    "certifications-id": "certificacoes",
+    "clients-id": "clientes"
+  },
+  "language-button": {
+    "pt": "Português",
+    "en": "Inglês",
+    "es": "Espanhol",
+    "subtitle": "Selecione a linguagem"
+  }
+}
