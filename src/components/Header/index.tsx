@@ -7,7 +7,7 @@ import { languageFlagPath } from './labels';
 import { LANGUAGE } from '#/api/enums';
 import React, { useEffect, useState, useCallback} from 'react';
 
-const Header = () =>  {
+const Header: React.FC = () =>  {
   const { t, lang } = useTranslation('common');
   const [ currentLanguage, setCurrentLanguage] = useState<any>()
 

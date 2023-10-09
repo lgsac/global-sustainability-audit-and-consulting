@@ -1,7 +1,7 @@
 import useTranslation from 'next-translate/useTranslation';
 import React from 'react';
 
-const HeroBanner = () =>  {
+const HeroBanner: React.FC = () =>  {
   const { t } = useTranslation('common');
 
   return(

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
 import React from 'react';
 
-const Footer = () =>  {
+const Footer: React.FC = () =>  {
   const { t, lang } = useTranslation('common');
   const currentYear = new Date().getFullYear();
 
