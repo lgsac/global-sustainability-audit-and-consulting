@@ -1,0 +1,23 @@
+{
+  "menu": {
+    "about": "About",
+    "services":"Services Provided",
+    "certifications":"Certifications",
+    "clients":"Clients",
+    "about-id": "about",
+    "services-id": "services-provided",
+    "certifications-id": "certifications",
+    "clients-id": "clients"
+  },
+  "language-button": {
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "footer": {
+    "copyright": "All rights reserved." 
+  },
+  "hero": {
+    "text": "In the globalized world in which we live, the demand for sustainable products is crucial for our survival. If we maintain the current pace of socio-environmental demand, not only our existence will be at risk but also that of subsequent generations. The implementation of sustainable production systems is fundamental for the production of food and clean energy. And in this way, increasing respecting social, economic and environmental requirements."
+  }
+}
