@@ -13,5 +13,8 @@
     "pt": "Portuguese",
     "en": "English",
     "es": "Spanish"
+  },
+  "footer": {
+    "copyright": "All rights reserved." 
   }
 }

@@ -60,7 +60,7 @@ const Header = () =>  {
             </li>
           </ul>
         </div>
-        <Link href="#" className=" m-1.5 p-1.5">
+        <Link href={`/${lang}`} className=" m-1.5 p-1.5">
           <span className="sr-only">Global sustainability audit and consulting</span>
           <Image
             src="/logo-gsac.svg"
