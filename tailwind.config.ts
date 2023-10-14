@@ -11,13 +11,8 @@ const config: Config = {
   theme: {
     container: {
       center: true,
-    },
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1366px',
-    },
+      padding: "5%",
+    }
   },
   daisyui: {
     themes: ["light"],

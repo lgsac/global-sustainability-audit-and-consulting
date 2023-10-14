@@ -1,4 +1,5 @@
 {
+  "title": "Global Sustainability Audits and Consulting ",
   "menu": {
     "about": "Acerca de",
     "services":"Servicios",
@@ -19,5 +20,181 @@
   },
   "hero": {
     "text": "En el mundo globalizado en el que vivimos, la demanda de productos sostenibles es crucial para nuestra supervivencia. Si mantenemos el ritmo actual de demanda socioambiental, no sólo estará en riesgo nuestra existencia sino también la de las generaciones futuras. La implementación de sistemas de producción sostenibles es fundamental para la producción de alimentos y energía limpia. Y de esta manera, aumentando el respeto a las exigencias sociales, económicas y medioambientales."
+  },
+  "about": {
+    "description": "Con alrededor de 10 años de experiencia en el área de sustentabilidad, la organización brinda servicios de consultoría y auditoría en programas de certificación de sustentabilidad para la producción agrícola, procesamiento, logística y producción de energías renovables. Conociendo las dificultades para implementar este tipo de programas, la empresa realiza evaluaciones previas al proceso de certificación, así como también indica las recomendaciones necesarias antes de proceder con auditorías o certificación, así mismo los organismos de certificación acreditados en estándares de sostenibilidad pueden contratar los servicios de la empresa para realizar su auditoría. procesos.",
+    "ceo": {
+      "title": "Conozca a nuestro CEO Leandro Pires",
+      "qualities": [
+        "Experiencia única en la aplicación de nuevos programas de certificación alrededor del mundo",
+        "Auditor principal - certificación de sostenibilidad",
+        "Con fluidez en inglés y español",
+        "Conocimiento de buenas prácticas agrícolas",
+        "Buenas habilidades organizativas y actitud positiva",
+        "Licenciatura en Agronomía",
+        "Certificado de posgrado en gestión de agronegocios"
+      ],
+      "member": "Miembro del Ontario Institute of Agrologists",
+      "curriculum": {
+        "title": "Formación y experiencia",
+        "experiences": [
+          {
+            "period": {
+              "ingress": "2004-01-01",
+              "conclusion": null
+            },
+            "name": "Computing course (Technical Degree)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Dom Pedrito/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2008-05-01",
+              "conclusion": "2012-02-01"
+            },
+            "name": "Agronomist",
+            "company": "Malvina Farm",
+            "location": "Dom Pedrito, Brazil",
+            "type": "WORK",
+            "activities": [
+              "Family-owned farm, where arable crops are cultivated (rice, soybeans, and corn)",
+              "In field operations monitoring: planting, harvesting, fertilizing and pesticides spraying",
+              "Machinery calibration (planters, fertilizers spreaders and combine harvesters)",
+              "Soil tests results interpreting and costs control"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2010-01-01",
+              "conclusion": null
+            },
+            "name": "Agronomy (Bachelor’s Degree)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Bagé/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2011-01-01",
+              "conclusion": null
+            },
+            "name": "Specialization in Forage Crops and Pastures (Post Graduate Course)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Bagé/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2012-04-01",
+              "conclusion": "2013-04-01"
+            },
+            "name": "Supervisor",
+            "company": "Epicurean Supplies",
+            "location": "Hastings, New Zealand",
+            "type": "WORK",
+            "activities": [
+              "Medium-sized company dedicated to organic marked gardening production, suppling local markets and restaurants",
+              "Provided customer service at the local Farmer’s Market",
+              "In field activities supervision (such as planting, sowing, weeding, etc.)",
+              "Harvesting, grading, weighing, and packaging of vegetables"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2013-05-01",
+              "conclusion": "2013-09-01"
+            },
+            "name": "Field worker",
+            "company": "The Yummy Fruit Company (Johnny Appleseed Holdings)",
+            "location": "Hastings, New Zealand",
+            "type": "WORK",
+            "activities": [
+              "Large-sized company dedicated to stone fruit and apple production",
+              "Pruning, plants nursery activities, and plants budding and/or grafting"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2013-11-01",
+              "conclusion": "2021-12-01"
+            },
+            "name": "Lead Auditor",
+            "company": "FOODCHAIN ID CERTIFICADORA LTDA",
+            "location": "Porto Alegre, Brazil",
+            "type": "WORK",
+            "activities": [
+              "Audits sector: Lead auditor of programs including FoodChain ID Non-GMO, ProTerra, Bonscuro, VERIFARM V1.0, and Round Table of Sustainable Soy (RTRS)",
+              "Certification Sector: Audit reports reviewing",
+              "Certification Sector: Specialist in agricultural practices applied to soybeans, sugarcane, and rice"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2022-01-01",
+              "conclusion": "2022-10-01"
+            },
+            "name": "Agri-Business Management (Post Graduate Certificate)",
+            "company": "Fanshawe College",
+            "location": "London, Ontario",
+            "type": "EDUCATION",
+            "activities": [
+              "Food Safety and Traceability",
+              "Canadian OH&S",
+              "Precision Technologies",
+              "Managerial Accounting"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2022-06-01",
+              "conclusion": null,
+              "isPresent": true
+            },
+            "name": "Auditor",
+            "company": "Control Union Certification, FoodChain ID Certificadora, FoodChain ID UK",
+            "location": "North America",
+            "type": "WORK",
+            "activities": [
+              "Assessor for pilot projects: Bonsucro Standard V5.1",
+              "Audits sector: Lead auditor of programs including FoodChain ID Non-GMO, ProTerra, Bonscuro, FSA 2.1, RSPO, ISCC, CTP, SAC 2017, and Round Table of Sustainable Soy (RTRS)",
+              "Certification Sector: Audit reports reviewing",
+              "Certification Sector: Specialist in agricultural practices applied to soybeans, sugarcane, and corn"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2012-04-01",
+              "conclusion": "2022-12-01"
+            },
+            "name": "Courses and Training",
+            "company": "See more infos on details modal",
+            "location": "",
+            "type": "EDUCATION",
+            "activities": [
+              "RSPO-endorsed RSPO Supply Chain Certification Lead Auditor Course, Germany (Online) - Dec 2022",
+              "RSPO-endorsed RSPO Supply Chain Certification Lead Auditor Course, England (Online) - Oct 2022",
+              "ISCC Internal Training, Iowa/USA - Sep 2022",
+              "ISCC Basic Training, Online, ISCC, Cologne, Germany - Aug 2022",
+              "Kevin Mitnick Security Awareness Training, Online, KnowBe4, USA - Sep 2020",
+              "Global FoodChain ID Non-OGM V7.1, Online, FoodChain ID (08 hours) - July 2020",
+              "ProTerra Standard V4.1, Online, ProTerra Foundation (40 hours) - Feb 2020",
+              "Workshop Bonsucro, RTRS and ProTerra, Porto Alegre – RS (16 hours) - Feb 2020",
+              "Bonsucro: Chain of Custody Standard V4 and Chain of Custody Std. V5, Online - May 2019",
+              "Security Awareness Training, Online, KnowBe4, USA - Mar 2019",
+              "Global FoodChain ID Non-OGM V6.1, FoodChain ID, Porto Alegre – RS - 2018",
+              "Bonsucro: Bonsucro EU RED Mass Balance  Chain of Custody Standard V4.0, Online - May 2018",
+              "RTRS Standard V.3.0 Lead Auditor Training, Porto Alegre – RS  - Sep 2016",
+              "ISO 9001:2015 Lead Auditor Training Course, ATSG, Porto Alegre – RS - Jul 2016",
+              "Quality Management System (Certification Program RTRS), Online, Porto Alegre, RS - Jul 2016",
+              "English Course, EMBASSY CES, 6 weeks, Auckland, New  Zealand - Apr - May 2012"
+            ]
+          }
+        ]
+      }
+    }
   }
 }
