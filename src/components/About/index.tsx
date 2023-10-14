@@ -108,7 +108,9 @@ const About = () =>  {
                               />
                             </div>
                             <h3 className="card-title flex-1 my-2">{experience.name}</h3>
-                            <h6 className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion!)}</h6>
+                            {experience.period.conclusion && (
+                              <h6 className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion)}</h6>
+                            )}                            
                             <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
                             <ul className="marker:text-green-600 list-disc pl-5 my-7 space-y-2">
                               {experience.activities.map((value: string, i: number) => (
@@ -117,7 +119,6 @@ const About = () =>  {
                             </ul>
                             <div className="modal-action">
                               <form method="dialog">
-                                {/* if there is a button in form, it will close the modal */}
                                 <button className="btn btn-outline">Fechar</button>
                               </form>
                             </div>
