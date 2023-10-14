@@ -79,17 +79,51 @@ const About = () =>  {
                     )}
                     <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
                     {experience.activities.length > 0 && (
-                      <button className="btn btn-ghost text-green-600 w-28 px-0 mt-2">
-                        <span className="text-left">Ver mais</span>
-                        <Image
-                          src="/arrow-btn.svg"
-                          alt=""
-                          className="ml-1"
-                          width={16}
-                          height={0}
-                          priority
-                        />
-                      </button>
+                      <>
+                        <button 
+                          className="btn btn-ghost text-green-600 w-28 px-0 mt-2"
+                          onClick={()=> (document.getElementById(`modal-${index}`) as HTMLFormElement).showModal()}
+                        >
+                          <span className="text-left">Ver mais</span>
+                          <Image
+                            src="/arrow-btn.svg"
+                            alt=""
+                            className="ml-1"
+                            width={16}
+                            height={0}
+                            priority
+                          />
+                        </button>
+                        <dialog id={`modal-${index}`} className="modal">
+                          <div className="modal-box w-11/12 max-w-5xl">
+                            <div className="flex justify-between items-center">
+                              <span className="text-green-600 font-bold text-2xl">{experience.period.ingress.slice(0, 4)}</span>
+                              <Image
+                                src={experience.type === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
+                                alt=""
+                                className="bg-green-600 p-2 rounded-lg"
+                                width={experience.type === EXPERIENCE_TYPE.WORK ? 30 : 35}
+                                height={0}
+                                priority
+                              />
+                            </div>
+                            <h3 className="card-title flex-1 my-2">{experience.name}</h3>
+                            <h6 className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion!)}</h6>
+                            <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
+                            <ul className="marker:text-green-600 list-disc pl-5 my-7 space-y-2">
+                              {experience.activities.map((value: string, i: number) => (
+                                <li key={i}>{value}</li> 
+                              ))}
+                            </ul>
+                            <div className="modal-action">
+                              <form method="dialog">
+                                {/* if there is a button in form, it will close the modal */}
+                                <button className="btn btn-outline">Fechar</button>
+                              </form>
+                            </div>
+                          </div>
+                        </dialog>
+                      </>
                     )}
                   </div>
                 </div>
