@@ -41,10 +41,10 @@ const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children }) =>  {
         autoHeight={true}
         spaceBetween={15}
         breakpoints={{
-          600: {
-            slidesPerView: 1.3,
+          480: {
+            slidesPerView: 1.2,
           },
-          800: {
+          720: {
             slidesPerView: 2.3,
           },
           1080: {
