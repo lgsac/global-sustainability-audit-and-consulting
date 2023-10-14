@@ -5,10 +5,16 @@ import React from 'react';
 import Title from '../Title';
 import Section from '../Section';
 import Image from 'next/image';
+import { SwiperSlide } from 'swiper/react';
+import { Experience } from '#/api/models';
+import { EXPERIENCE_TYPE } from '#/api/enums';
+import SwiperCarousel from '../SwiperCarousel';
+import { formatPeriod } from '#/utils/date';
 
 const About = () =>  {
-  const { t } = useTranslation('common');
+  const { t, lang } = useTranslation('common');
   const qualities: any = t("about.ceo.qualities", {}, { returnObjects: true });
+  const experiences: any = t("about.ceo.curriculum.experiences", {}, { returnObjects: true });
 
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.about-id")}>
@@ -45,6 +51,51 @@ const About = () =>  {
             height={0}
             priority
           />
+        </div>
+      </div>
+      <div className="bg-slate-200 py-20 text-zinc-900 relative z-10 mt-0 lg:-mt-20">
+        <div className="container">
+          <Title>{t("about.ceo.curriculum.title")}</Title>
+          <SwiperCarousel>
+            {experiences.map((experience: Experience, index: number) => {
+            return (
+              <SwiperSlide key={index}>
+                <div className="card bg-base-100 shadow-xl min-h-max">
+                  <div className="card-body">
+                    <div className="flex justify-between items-center">
+                      <span className="text-green-600 font-bold text-2xl">{experience.period.ingress.slice(0, 4)}</span>
+                      <Image
+                        src={experience.type === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
+                        alt=""
+                        className="bg-green-600 p-2 rounded-lg"
+                        width={experience.type === EXPERIENCE_TYPE.WORK ? 30 : 35}
+                        height={0}
+                        priority
+                      />
+                    </div>
+                    <h3 className="card-title flex-1 my-2">{experience.name}</h3>
+                    {experience.period.conclusion && (
+                      <span className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion)}</span>
+                    )}
+                    <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
+                    {experience.activities.length > 0 && (
+                      <button className="btn btn-ghost text-green-600 w-28 px-0 mt-2">
+                        <span className="text-left">Ver mais</span>
+                        <Image
+                          src="/arrow-btn.svg"
+                          alt=""
+                          className="ml-1"
+                          width={16}
+                          height={0}
+                          priority
+                        />
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </SwiperSlide>
+            )})}
+          </SwiperCarousel>
         </div>
       </div>
     </Section>

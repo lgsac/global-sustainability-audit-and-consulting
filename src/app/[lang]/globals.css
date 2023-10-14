@@ -27,7 +27,7 @@ body {
 }
 
 .swiper {
-  margin-right: calc(-5% - 15px)!important;
+  margin-right: calc(-5% - 5px)!important;
 }
 
 .swiper-button {
