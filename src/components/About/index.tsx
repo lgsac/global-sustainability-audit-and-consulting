@@ -56,7 +56,7 @@ const About = () =>  {
       <div className="bg-slate-200 py-20 text-zinc-900 relative z-10 mt-0 lg:-mt-20">
         <div className="container">
           <Title align="text-left">{t("about.ceo.curriculum.title")}</Title>
-          <SwiperCarousel>
+          <SwiperCarousel sliderPerView={{ sm: 1.2, md: 2.3, lg: 3 }}>
             {experiences.map((experience: Experience, index: number) => {
             return (
               <SwiperSlide key={index}>

@@ -5,11 +5,19 @@ import "swiper/css";
 import 'swiper/css/navigation';
 import Image from 'next/image';
 
-type SwiperCarouselProps = {
-  children: ReactNode ;
+type SliderPerViewProps = {
+  sm: number;
+  md: number;
+  lg: number
 }
 
-const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children }) =>  {
+type SwiperCarouselProps = {
+  children: ReactNode ;
+  sliderPerView: SliderPerViewProps;
+  centeredSlides?: boolean;
+}
+
+const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children, sliderPerView, centeredSlides }) =>  {
 
   return(
     <>
@@ -38,17 +46,18 @@ const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children }) =>  {
           prevEl: ".swiper-btn-prev",
           disabledClass: ".swiper-btn-disabled"
         }}
+        centeredSlides={centeredSlides}
         autoHeight={true}
         spaceBetween={15}
         breakpoints={{
           480: {
-            slidesPerView: 1.2,
+            slidesPerView: sliderPerView.sm,
           },
           720: {
-            slidesPerView: 2.3,
+            slidesPerView: sliderPerView.md,
           },
           1080: {
-            slidesPerView: 3,
+            slidesPerView: sliderPerView.lg,
           }
         }}
       >
