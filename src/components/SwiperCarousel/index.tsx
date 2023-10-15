@@ -4,6 +4,7 @@ import { Navigation, A11y} from 'swiper/modules';
 import "swiper/css";
 import 'swiper/css/navigation';
 import Image from 'next/image';
+import { useRef } from 'react';
 
 type SliderPerViewProps = {
   sm: number;
@@ -19,9 +20,12 @@ type SwiperCarouselProps = {
 
 const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children, sliderPerView, centeredSlides }) =>  {
 
+  const prevRef = useRef<HTMLDivElement>(null)
+  const nextRef = useRef<HTMLDivElement>(null)
+
   return(
     <>
-      <div className="swiper-button swiper-btn-next">
+      <div className="swiper-button swiper-btn-next" ref={nextRef}>
         <Image
           src="/next-button.svg"
           alt=""
@@ -30,7 +34,7 @@ const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children, sliderPerView
           priority
         />
       </div>
-      <div className="swiper-button swiper-btn-prev">
+      <div className="swiper-button swiper-btn-prev" ref={prevRef}>
         <Image
           src="/prev-button.svg"
           alt=""
@@ -42,9 +46,15 @@ const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children, sliderPerView
       <Swiper
         modules={[Navigation, A11y]}
         navigation={{
-          nextEl: ".swiper-btn-next",
-          prevEl: ".swiper-btn-prev",
+          nextEl: nextRef.current,
+          prevEl: prevRef.current,
           disabledClass: ".swiper-btn-disabled"
+        }}
+        onInit={(swiper: any) => {
+          swiper.params.navigation.prevEl = prevRef.current;
+          swiper.params.navigation.nextEl = nextRef.current;
+          swiper.navigation.init();
+          swiper.navigation.update();
         }}
         centeredSlides={centeredSlides}
         autoHeight={true}
