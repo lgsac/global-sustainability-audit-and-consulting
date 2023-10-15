@@ -19,11 +19,11 @@ const About = () =>  {
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.about-id")}>
       <div className="container relative z-20">
-        <Title>{t("title")}</Title>
+        <Title align="text-left">{t("title")}</Title>
         <p>{t("about.description")}</p>
         <div className="flex flex-col lg:flex-row">
           <div className="mt-20">
-            <Title>{t("about.ceo.title")}</Title>
+            <Title align="text-left">{t("about.ceo.title")}</Title>
             <ul className="marker:text-green-600 list-disc pl-5 space-y-2">
               {qualities.map((value: string, i: number) => (
                 <li key={i}>{value}</li> 
@@ -55,8 +55,8 @@ const About = () =>  {
       </div>
       <div className="bg-slate-200 py-20 text-zinc-900 relative z-10 mt-0 lg:-mt-20">
         <div className="container">
-          <Title>{t("about.ceo.curriculum.title")}</Title>
-          <SwiperCarousel>
+          <Title align="text-left">{t("about.ceo.curriculum.title")}</Title>
+          <SwiperCarousel sliderPerView={{ sm: 1.2, md: 2.3, lg: 3 }}>
             {experiences.map((experience: Experience, index: number) => {
             return (
               <SwiperSlide key={index}>
@@ -84,7 +84,7 @@ const About = () =>  {
                           className="btn btn-ghost text-green-600 w-28 px-0 mt-2"
                           onClick={()=> (document.getElementById(`modal-${index}`) as HTMLFormElement).showModal()}
                         >
-                          <span className="text-left">Ver mais</span>
+                          <span className="text-left">{t("view-more")}</span>
                           <Image
                             src="/arrow-btn.svg"
                             alt=""
