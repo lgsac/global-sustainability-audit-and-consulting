@@ -84,7 +84,7 @@ const About = () =>  {
                           className="btn btn-ghost text-green-600 w-28 px-0 mt-2"
                           onClick={()=> (document.getElementById(`modal-${index}`) as HTMLFormElement).showModal()}
                         >
-                          <span className="text-left">Ver mais</span>
+                          <span className="text-left">{t("view-more")}</span>
                           <Image
                             src="/arrow-btn.svg"
                             alt=""

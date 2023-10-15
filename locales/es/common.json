@@ -15,6 +15,7 @@
     "en": "Inglés",
     "es": "Español"
   },
+  "view-more": "Ver más",
   "footer": {
     "copyright": "Todos los derechos reservados." 
   },
@@ -196,5 +197,74 @@
         ]
       }
     }
+  },
+  "services": {
+    "title": "Comprender cómo se llevan a cabo las auditorías y consultorías agrícolas.",
+    "services-provided": [
+      {
+        "name": "Auditoria",
+        "resume": "La empresa ofrece servicios de auditoría a organismos de certificación acreditados en estándares de sostenibilidad, incluidos Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra, RSPO, RTRS, SAC 2017 e ISCC.",
+        "activities": [],
+        "description": "Los organismos de certificación acreditados en estándares de sostenibilidad pueden contratar los servicios de la empresa para realizar sus procesos de auditoría. La empresa está capacitada para realizar auditorías de estándares como: Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra Standard, RSPO, RTRS (The Round Table on Responsible Soy), SAC 2017 e ISCC (The International Sustainability and Carbon Certification).",
+        "images": {
+          "card": "/img/benson-hill-proterra.webp",
+          "banner": ""
+        },
+        "steps": [
+          "Solicitud/Contrato",
+          "Auditoría",
+          "Resultados e informes",
+          "Emisión de certificado o documentos equivalentes",
+          "Cierre de no conformidades"
+        ],
+        "testimonials": [
+          {
+            "name": "Diego Müller",
+            "office": "Coordinador de Certificación agr FoodChain ID Brasil",
+            "testimony": "Un profesional cualificado y con mucha experiencia en diferentes países. Cumple expectativas y plazos, estando siempre atento en sus servicios."
+          }
+        ]
+      },
+      {
+        "name": "Consultoria",
+        "resume": "El proceso implica evaluaciones alineadas con los objetivos del cliente y puede incluir auditorías internas para evaluar sus sistemas. Los servicios se personalizan para satisfacer necesidades específicas.",
+        "activities": [],
+        "description": "Implica realizar evaluaciones basadas en las demandas y objetivos del cliente. Es posible que sean necesarias auditorías internas para evaluar los sistemas utilizados por los clientes. De esta forma, los servicios prestados se adaptan a las demandas específicas de los clientes. Dependiendo de la demanda de los clientes, se desarrollan capacitaciones con el objetivo de aclarar cada requisito de sostenibilidad establecido por los estándares de sostenibilidad existentes.",
+        "images": {
+          "card": "/img/home-working-1.webp",
+          "banner": ""
+        },
+        "steps": [
+          "Solicitud/Contrato",
+          "Auditoría",
+          "Resultados e informes",
+          "Emisión de certificado o documentos equivalentes",
+          "Cierre de no conformidades"
+        ],
+        "testimonials": [
+          {
+            "name": "Diego Müller",
+            "office": "Coordinador de Certificación agr FoodChain ID Brasil",
+            "testimony": "Un profesional cualificado y con mucha experiencia en diferentes países. Cumple expectativas y plazos, estando siempre atento en sus servicios."
+          }
+        ]
+      },
+      {
+        "name": "Servicios agrícolas prestados",
+        "resume": null,
+        "activities": [
+          "Implementación de: Programación de actividades y procedimientos.",
+          "Capacitación de los trabajadores en sus funciones y políticas internas.",
+          "Adquisición y gestión de insumos."
+        ],
+        "description": null,
+        "images": {
+          "card": "/img/soja.webp",
+          "banner": null
+        },
+        "steps": [],
+        "testimonials": []
+      }
+    ]
   }
 }

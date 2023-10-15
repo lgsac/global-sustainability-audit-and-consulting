@@ -18,3 +18,24 @@ export interface Period {
   ingress: string;
   conclusion?: string;
 }
+
+export interface Service {
+  name: string;
+  resume: string;
+  description?: string;
+  activities?: string[];
+  images: ServiceImage;
+  steps?: string[];
+  testimonials?: Testimony[];
+}
+
+export interface ServiceImage {
+  card: string;
+  banner?: string;
+}
+
+export interface Testimony {
+  name: string;
+  office: string;
+  testimony: string
+}
