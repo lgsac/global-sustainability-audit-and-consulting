@@ -19,11 +19,11 @@ const About = () =>  {
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.about-id")}>
       <div className="container relative z-20">
-        <Title>{t("title")}</Title>
+        <Title align="text-left">{t("title")}</Title>
         <p>{t("about.description")}</p>
         <div className="flex flex-col lg:flex-row">
           <div className="mt-20">
-            <Title>{t("about.ceo.title")}</Title>
+            <Title align="text-left">{t("about.ceo.title")}</Title>
             <ul className="marker:text-green-600 list-disc pl-5 space-y-2">
               {qualities.map((value: string, i: number) => (
                 <li key={i}>{value}</li> 
@@ -55,7 +55,7 @@ const About = () =>  {
       </div>
       <div className="bg-slate-200 py-20 text-zinc-900 relative z-10 mt-0 lg:-mt-20">
         <div className="container">
-          <Title>{t("about.ceo.curriculum.title")}</Title>
+          <Title align="text-left">{t("about.ceo.curriculum.title")}</Title>
           <SwiperCarousel>
             {experiences.map((experience: Experience, index: number) => {
             return (
