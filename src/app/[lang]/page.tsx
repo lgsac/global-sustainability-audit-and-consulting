@@ -10,6 +10,7 @@ import useTranslation from 'next-translate/useTranslation';
 import Section from '#/components/Section';
 import SwiperCarousel from '#/components/SwiperCarousel';
 import { SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 const Home: React.FunctionComponent = () => {
   const { t } = useTranslation('common');
@@ -23,6 +24,11 @@ const Home: React.FunctionComponent = () => {
     "RTRS (The Round Table on Responsible Soy)",
     "SAC 2017",
     "ISCC (The International Sustainability and Carbon Certification)"
+  ];
+
+  const logosPath = [
+    "/control-union-logo.svg",
+    "/FCID-logo.svg",
   ]
 
   return (
@@ -58,6 +64,25 @@ const Home: React.FunctionComponent = () => {
               )
             })}
           </SwiperCarousel>
+        </div>
+      </Section>
+      <Section backgroundColor="bg-slate-200" sectionId={t("menu.clients-id")}>
+        <div className="container relative">
+          <Title align="text-center">{t("clients.title")}</Title>
+          <div className="flex justify-center items-center flex-col lg:flex-row space-x-0 lg:space-x-9">
+            {logosPath.map((path: string, index: number) => {
+              return (
+                <Image
+                  key={index}
+                  alt=""
+                  src={path}
+                  className="mt-8 lg:mt-0"
+                  width={200}
+                  height={0}
+                />
+              )
+            })}
+          </div>
         </div>
       </Section>
       <Footer />     
