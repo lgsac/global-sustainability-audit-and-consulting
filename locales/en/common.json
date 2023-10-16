@@ -16,12 +16,10 @@
     "es": "Spanish"
   },
   "view-more": "View more",
+  "step": "Steps",
   "footer": {
     "copyright": "All rights reserved." 
   },
-  "gallery": [
-    "/img/"
-  ],
   "hero": {
     "text": "In the globalized world in which we live, the demand for sustainable products is crucial for our survival. If we maintain the current pace of socio-environmental demand, not only our existence will be at risk but also that of subsequent generations. The implementation of sustainable production systems is fundamental for the production of food and clean energy. And in this way, increasing respecting social, economic and environmental requirements."
   },
@@ -205,6 +203,7 @@
     "title": "Understand how agricultural auditing and consultancy are carried out",
     "services-provided": [
       {
+        "slug": "auditoria",
         "name": "Auditoria",
         "resume": "The company offers audit services for certification bodies accredited on sustainability standards, including Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra, RSPO, RTRS, SAC 2017 and ISCC.",
         "activities": [],
@@ -217,8 +216,8 @@
           "Request/Contract",
           "Audit",
           "Results and reports",
-          "Issuance of certificate or equivalent documents",
-          "Closing non-conformities"
+          "Closing non-conformities",
+          "Issuance of certificate or equivalent documents"
         ],
         "testimonials": [
           {
@@ -229,20 +228,21 @@
         ]
       },
       {
+        "slug": "consultancy",
         "name": "Consultancy",
         "resume": "The process involves assessments aligned with client goals, and may include internal audits to evaluate their systems. Services are customized to meet specific needs.",
         "activities": [],
         "description": "It involves carrying out assessments based on customer demands and objectives. Internal audits may be necessary to evaluate systems used by customers. This way, the services provided are adapted to the specific demands of customers. Depending on customer demand, training is developed with the aim of clarifying each sustainability requirement established by existing sustainability standards.",
         "images": {
           "card": "/img/home-working-1.webp",
-          "banner": ""
+          "banner": "/img/banner-consultoria.webp"
         },
         "steps": [
           "Request/Contract",
           "Audit",
           "Results and reports",
-          "Issuance of certificate or equivalent documents",
-          "Closing non-conformities"
+          "Closing non-conformities",
+          "Issuance of certificate or equivalent documents"
         ],
         "testimonials": [
           {
@@ -253,6 +253,7 @@
         ]
       },
       {
+        "slug": null,
         "name": "Agricultural services provided",
         "resume": null,
         "activities": [

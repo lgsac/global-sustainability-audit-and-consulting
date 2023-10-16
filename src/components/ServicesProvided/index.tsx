@@ -3,11 +3,11 @@ import React from 'react';
 import Title from '../Title';
 import Section from '../Section';
 import { Service } from '#/api/models';
+import Link from 'next/link';
 
 const ServicesProvided = () =>  {
-  const { t } = useTranslation('common');
+  const { t, lang } = useTranslation('common');
   const services: any = t("services.services-provided", {}, { returnObjects: true });
- 
 
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.services-id")}>
@@ -21,11 +21,15 @@ const ServicesProvided = () =>  {
                 </figure>
                 <div className="card-body flex-1">
                   <h2 className="card-title">{service.name}</h2>
-                  {!!service.steps?.length ? (
+                  {service.slug ? (
                     <>
                       <p>{service.resume}</p>
                       <div className="card-actions mt-4">
-                        <button className="btn bg-green-600 hover:bg-green-500 border-0 text-white">{t("view-more")}</button>
+                        <Link 
+                          href={`/${lang}/${service.slug}`}
+                        >
+                          <button className="btn bg-green-600 hover:bg-green-500 border-0 text-white">{t("view-more")}</button>
+                        </Link>
                       </div>
                     </>
                   ) : (

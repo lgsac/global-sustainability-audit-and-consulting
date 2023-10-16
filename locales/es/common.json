@@ -16,6 +16,7 @@
     "es": "Español"
   },
   "view-more": "Ver más",
+  "step": "Etapas",
   "footer": {
     "copyright": "Todos los derechos reservados." 
   },
@@ -202,6 +203,7 @@
     "title": "Comprender cómo se llevan a cabo las auditorías y consultorías agrícolas.",
     "services-provided": [
       {
+        "slug": "auditoria",
         "name": "Auditoria",
         "resume": "La empresa ofrece servicios de auditoría a organismos de certificación acreditados en estándares de sostenibilidad, incluidos Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra, RSPO, RTRS, SAC 2017 e ISCC.",
         "activities": [],
@@ -214,8 +216,8 @@
           "Solicitud/Contrato",
           "Auditoría",
           "Resultados e informes",
-          "Emisión de certificado o documentos equivalentes",
-          "Cierre de no conformidades"
+          "Cierre de no conformidades",
+          "Emisión de certificado o documentos equivalentes"
         ],
         "testimonials": [
           {
@@ -226,20 +228,21 @@
         ]
       },
       {
+        "slug": "consultoria",
         "name": "Consultoria",
         "resume": "El proceso implica evaluaciones alineadas con los objetivos del cliente y puede incluir auditorías internas para evaluar sus sistemas. Los servicios se personalizan para satisfacer necesidades específicas.",
         "activities": [],
         "description": "Implica realizar evaluaciones basadas en las demandas y objetivos del cliente. Es posible que sean necesarias auditorías internas para evaluar los sistemas utilizados por los clientes. De esta forma, los servicios prestados se adaptan a las demandas específicas de los clientes. Dependiendo de la demanda de los clientes, se desarrollan capacitaciones con el objetivo de aclarar cada requisito de sostenibilidad establecido por los estándares de sostenibilidad existentes.",
         "images": {
           "card": "/img/home-working-1.webp",
-          "banner": ""
+          "banner": "/img/banner-consultoria.webp"
         },
         "steps": [
           "Solicitud/Contrato",
           "Auditoría",
           "Resultados e informes",
-          "Emisión de certificado o documentos equivalentes",
-          "Cierre de no conformidades"
+          "Cierre de no conformidades",
+          "Emisión de certificado o documentos equivalentes"
         ],
         "testimonials": [
           {
@@ -250,6 +253,7 @@
         ]
       },
       {
+        "slug": null,
         "name": "Servicios agrícolas prestados",
         "resume": null,
         "activities": [

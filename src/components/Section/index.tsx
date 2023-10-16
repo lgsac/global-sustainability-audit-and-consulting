@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 type TitleProps = {
   children: ReactNode ;
-  sectionId: string;
+  sectionId?: string;
   backgroundColor: "bg-white" | "bg-slate-200";
 }
 
