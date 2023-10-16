@@ -51,23 +51,31 @@ const Service: React.FunctionComponent = () => {
         </div>
       </Section>
       <Section backgroundColor="bg-white">
+        <Gallery />
+      </Section>
+      <Section backgroundColor="bg-slate-200">
           <div className="container relative">
-            <SwiperCarousel sliderPerView={{ sm: 1.1, md: 2.2, lg: 3 }}>
-              {imgsGallery.map((imgPath: string, index: number) => {
+            <SwiperCarousel sliderPerView={{ sm: 1, md: 1, lg: 1 }}>
+              {currentService.testimonials?.map((testimony: Testimony, index: number) => {
                 return (
                   <SwiperSlide key={index}>
-                    <div 
-                      className="h-72 bg-center bg-cover rounded-lg" 
-                      style={{backgroundImage: `url(${imgPath})`}}
-                    ></div>
-                    
+                    <div className="flex flex-col justify-center text-center text-gray-600">
+                      <Image
+                        src="/testimony-icon.svg"
+                        alt=""
+                        className="m-auto"
+                        width={50}
+                        height={0}
+                        priority
+                      />
+                      <span className="text-2xl lg:text-4xl p-8 font-bold">{testimony.testimony}</span>
+                      <span className="font-semibold">{testimony.name}</span>
+                      <span className="text-sm">{testimony.office}</span>
+                    </div>  
                   </SwiperSlide>
                 )})}
             </SwiperCarousel>
           </div>
-      </Section>
-      <Section backgroundColor="bg-slate-200">
-        <Gallery />
       </Section>
       <Footer />     
     </>
