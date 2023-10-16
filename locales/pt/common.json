@@ -1,4 +1,5 @@
 {
+  "title": "Global Sustainability Audits and Consulting ",
   "menu": {
     "about": "Sobre",
     "services":"Serviços Prestados",
@@ -15,10 +16,285 @@
     "es": "Espanhol",
     "subtitle": "Selecione a linguagem"
   },
+  "view-more": "Ver mais",
+  "step": "Etapas",
   "footer": {
     "copyright": "Todos os direitos reservados." 
   },
   "hero": {
     "text": "No mundo globalizado em que vivemos a demanda por produtos sustentáveis é crucial para nossa sobrevivência. Se mantivermos o atual ritmo de demanda socio-ambiental, não apenas nossa existencia estará em risco mas também a das gerações seguintes. A implementação de sistemas de produção sustentáveis são fundamenitais para a produção de alimentos e de energia limpa. E dessa forma incrementando respeitando requisitos sociais, econômicos e ambientais."
+  },
+  "about": {
+    "description": "Com cerca de 10 anos de experiência na área de sustentabilidade, a organização fornece serviços de consultoria e auditoria em programas de certificação em sustentabilidade para produção agrícola, processamento, logística e produção de energia renovável. Sabendo-se das dificuldades de implementação de tais programas, a empresa realiza avaliações previas ao processo de certificação, bem como indica as recomendações necessárias antes de avançar com as auditorias ou certificação.De igual maneira, organismos de certificação acreditados para normas de sustentabilidade podem contratar os serviços da empresa para condução de seus processos de auditoria.",
+    "ceo": {
+      "title": "Conheça nosso CEO Leandro Pires",
+      "qualities": [
+        "Experiência única na aplicação de novos programas de certificação em todo o mundo",
+        "Auditor líder - certificação de sustentabilidade",
+        "Fluente em inglês e espanhol",
+        "Conhecimento de boas práticas agrícolas",
+        "Boa capacidade de organização e atitude positiva",
+        "Bacharel em agronomia",
+        "Certificado de pós graduação em gestão de agronegócios"
+      ],
+      "member": "Membro do Ontario Institute of Agrologists",
+      "curriculum": {
+        "title": "Formação e experiência",
+        "experiences": [
+          {
+            "period": {
+              "ingress": "2004-01-01",
+              "conclusion": null
+            },
+            "name": "Curso de Informática (Licenciatura Técnica)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Dom Pedrito/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2008-05-01",
+              "conclusion": "2012-02-01"
+            },
+            "name": "Agronomia",
+            "company": "Fazenda Malvina",
+            "location": "Dom Pedrito, Brazil",
+            "type": "WORK",
+            "activities": [
+              "Fazenda familiar, onde são cultivadas culturas arvenses (arroz, soja e milho)",
+              "No monitoramento das operações de campo: plantio, colheita, adubação e pulverização de agrotóxicos",
+              "Calibração de máquinas (plantadoras, espalhadoras de fertilizantes e colheitadeiras)",
+              "Interpretação de resultados de testes de solo e controle de custos"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2010-01-01",
+              "conclusion": null
+            },
+            "name": "Agronomia (bacharelado)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Bagé/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2011-01-01",
+              "conclusion": null
+            },
+            "name": "Especialização em Culturas Forrageiras e Pastagens (Pós-Graduação)",
+            "company": "URCAMP - Universidade da Região da Campanha",
+            "location": "Bagé/RS",
+            "type": "EDUCATION",
+            "activities": []
+          },
+          {
+            "period": {
+              "ingress": "2012-04-01",
+              "conclusion": "2013-04-01"
+            },
+            "name": "Supervisor",
+            "company": "Epicurean Suplementos",
+            "location": "Hastings, New Zealand",
+            "type": "WORK",
+            "activities": [
+              "Empresa de média dimensão dedicada à produção de horticultura marcada biológica, abastecendo mercados e restaurantes locais",
+              "Atendimento ao cliente no Farmer's Market local",
+              "Na fiscalização das atividades de campo (como plantio, semeadura, capina, etc.)",
+              "Colheita, classificação, pesagem e embalagem de vegetais"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2013-05-01",
+              "conclusion": "2013-09-01"
+            },
+            "name": "Trabalhador de campo",
+            "company": "A Companhia de Frutas Gostosas (Johnny Appleseed participações)",
+            "location": "Hastings, New Zealand",
+            "type": "WORK",
+            "activities": [
+              "Empresa de grande porte dedicada à produção de frutas com caroço e maçã",
+              "Podas, atividades de viveiro de plantas e brotação e/ou enxertia de plantas"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2013-11-01",
+              "conclusion": "2021-12-01"
+            },
+            "name": "Auditor líder",
+            "company": "FOODCHAIN ID CERTIFICADORA LTDA",
+            "location": "Porto Alegre, Brazil",
+            "type": "WORK",
+            "activities": [
+              "Setor de auditorias: Auditor líder de programas incluindo FoodChain ID Non-GMO, ProTerra, Bonscuro, VERIFARM V1.0 e Round Table of Sustainable Soy (RTRS)",
+              "Setor de Certificação: Revisão de relatórios de auditoria",
+              "Setor de Certificação: Especialista em práticas agrícolas aplicadas à soja, cana-de-açúcar e arroz"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2022-01-01",
+              "conclusion": "2022-10-01"
+            },
+            "name": "Gestão Agroempresarial (Certificado de Pós-Graduação)",
+            "company": "Colégio Fanshawe",
+            "location": "London, Ontario",
+            "type": "EDUCATION",
+            "activities": [
+              "Segurança Alimentar e Rastreabilidade",
+              "OH&S canadense",
+              "Tecnologias de precisão",
+              "Contabilidade Gerencial"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2022-06-01",
+              "conclusion": null,
+              "isPresent": true
+            },
+            "name": "Auditor",
+            "company": "Certificação da União de Controle, FoodChain ID Certificadora, FoodChain ID UK",
+            "location": "North America",
+            "type": "WORK",
+            "activities": [
+              "Assessor de projetos piloto: Padrão Bonsucro V5.1",
+              "Setor de auditorias: Auditor líder de programas incluindo FoodChain ID Non-GMO, ProTerra, Bonscuro, FSA 2.1, RSPO, ISCC, CTP, SAC 2017 e Round Table of Sustainable Soy (RTRS)",
+              "Setor de Certificação: Revisão de relatórios de auditoria",
+              "Setor de Certificação: Especialista em práticas agrícolas aplicadas à soja, cana-de-açúcar e milho"
+            ]
+          },
+          {
+            "period": {
+              "ingress": "2012-04-01",
+              "conclusion": "2022-12-01"
+            },
+            "name": "Cursos e Treinamentos",
+            "company": "",
+            "location": "",
+            "type": "EDUCATION",
+            "activities": [
+              "Curso de auditor líder de certificação de cadeia de suprimentos RSPO endossado pela RSPO, Alemanha (online) - dezembro de 2022",
+              "Curso de Auditor Líder de Certificação de Cadeia de Suprimentos RSPO endossado pela RSPO, Inglaterra (Online) - outubro de 2022",
+              "Treinamento interno do ISCC, Iowa/EUA - setembro de 2022",
+              "ISCC Basic Training, Online, ISCC, Colônia, Alemanha - agosto de 2022",
+              "Treinamento de conscientização sobre segurança de Kevin Mitnick, on-line, KnowBe4, EUA - setembro de 2020",
+              "Global FoodChain ID Non-OGM V7.1, Online, FoodChain ID (08 horas) - julho de 2020",
+              "ProTerra Standard V4.1, Online, ProTerra Foundation (40 horas) - fevereiro de 2020",
+              "Workshop Bonsucro, RTRS e ProTerra, Porto Alegre – RS (16 horas) - fev 2020",
+              "Bonsucro: Padrão de Cadeia de Custódia V4 e Cadeia de Custódia Padrão V5, Online - maio de 2019",
+              "Treinamento de conscientização sobre segurança, on-line, KnowBe4, EUA - março de 2019",
+              "Global FoodChain ID Non-OGM V6.1, FoodChain ID, Porto Alegre – RS - 2018",
+              "Bonsucro: Padrão de Cadeia de Custódia de Balanço de Massa Bonsucro EU RED V4.0, Online - Maio de 2018",
+              "Treinamento de Auditor Líder Padrão RTRS V.3.0, Porto Alegre – RS - set 2016",
+              "Curso de Formação de Auditor Líder ISO 9001:2015, ATSG, Porto Alegre – RS - Jul 2016",
+              "Sistema de Gestão da Qualidade (Programa de Certificação RTRS), Online, Porto Alegre, RS - Jul 2016",
+              "Curso de Inglês, EMBASSY CES, 6 semanas, Auckland, Nova Zelândia - abril - maio de 2012"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "services": {
+    "title": "Entenda como são realizadas a auditoria e consultoria agrícola",
+    "services-provided": [
+      {
+        "slug": "auditoria",
+        "name": "Auditoria",
+        "resume": "A empresa oferece serviços de auditoria para organismos de certificação acreditados em normas de sustentabilidade, incluindo Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra, RSPO, RTRS, SAC 2017 e ISCC.",
+        "activities": [],
+        "description": "Organismos de certificação acreditados para normas de sustentabilidade podem contratar os serviços da empresa para condução de seus processos de auditoria. A empresa está habilitada para condução de auditorias em normas como: Bonsucro, FoodChain ID Non-GMO, FSA, Padrão ProTerra, RSPO, RTRS (The Round Table on Responsible Soy), SAC 2017 e ISCC (The International Sustainability and Carbon Certification).",
+        "images": {
+          "card": "/img/benson-hill-proterra.webp",
+          "banner": "/img/auditoria-1.webp"
+        },
+        "steps": [
+          "Solicitação/Contrato",
+          "Auditoria",
+          "Resultados e relatórios",
+          "Fechamento de não-conformidades",
+          "Emissão de certificado ou documentos equivalentes"
+        ],
+        "testimonials": [
+          {
+            "name": "Diego Müller",
+            "office": " Coordenador de Certificação agr FoodChain ID Brasil",
+            "testimony": "Um profissional qualificado com muita experiência em diversos países. Atende as expectativas e prazos, sendo sempre atencioso em seus serviços."
+          }
+        ]
+      },
+      {
+        "slug": "consultoria",
+        "name": "Consultoria",
+        "resume": "O processo envolve avaliações alinhadas às metas dos clientes, podendo incluir auditorias internas para avaliar seus sistemas. Os serviços são personalizados para atender às necessidades específicas.",
+        "activities": [],
+        "description": "Envolve a realização de avaliações com base nas demandas dos e seus objetivos. Auditorias internas podem ser necessárias na avaliação da sistemas utilizados por clientes. Dessa forma os serviços prestados são adaptados às demandas específicas dos clientes. Dependendo da demanda do cliente, treinamentos são desenvolvidos com o objetivo de deixar claro cada requisito de sustentabilidade estabelecido pelas normas de sustentabilidade existentes.",
+        "images": {
+          "card": "/img/home-working-1.webp",
+          "banner": "/img/banner-consultoria.webp"
+        },
+        "steps": [
+          "Solicitação/Contrato",
+          "Auditoria",
+          "Resultados e relatórios",
+          "Fechamento de não-conformidades",
+          "Emissão de certificado ou documentos equivalentes"
+        ],
+        "testimonials": [
+          {
+            "name": "Diego Müller",
+            "office": " Coordenador de Certificação agr FoodChain ID Brasil",
+            "testimony": "Um profissional qualificado com muita experiência em diversos países. Atende as expectativas e prazos, sendo sempre atencioso em seus serviços."
+          }
+        ]
+      },
+      {
+        "slug": null,
+        "name": "Serviços agrícolas prestados",
+        "resume": null,
+        "activities": [
+          "Implementação de: Programação de atividades e procedimentos.",
+          "Treinamento de trabalhadores em suas funções e políticas internas.",
+          "Aquisição e manejo de insumos."
+        ],
+        "description": null,
+        "images": {
+          "card": "/img/soja.webp",
+          "banner": null
+        },
+        "steps": [],
+        "testimonials": []
+      }
+    ]
+  },
+  "certification": {
+    "importance-title": "Por que realizar a certificação?",
+    "description": "Diversos são os problemas enfrentados pela sociedade moderna - crise migratória, pobreza extrema, desigualdade social e instabilidade política - estando dentre eles. Tais problemas estão diretamente relacionados a mudanças climáticas e ao descaso com as questões sócio-ambientais. Com o objetivo de manter sua capacidade produtiva, gerir adequadamente recursos disponíveis e atender expectativas de clientes e stakeholders, entidades buscam implementar políticas e sistemas de gestão em sustentabilidade. Através da certificação em sustentabilidade, companhias comprovam a eficácia de seus sistemas no âmbito ambiental, social e econômico. Auditorias são exigidas para avaliação dos processos e obtenção da certificação, reforçando a imparcialidade do processo. Organizações certificadas, além de gerirem melhor seus recursos, podem comunicar de forma concisa o comprometimento com a sustentabilidade. E dessa forma obter vantagens do ponto de vista mercantil.",
+    "certification-title": "Certificações"
+  },
+  "clients": {
+    "title": "Clientes"
+  },
+  "news": {
+    "title": "News",
+    "articles": [
+      {
+        "title": "Auditorias em Fiji",
+        "description": "Conheça Leandro Pires Garcia, brasileiro formado pelo certificado de pós-graduação em Gestão Agroempresarial do Campus Regional de Simcoe/Norfolk, que passou um tempo fazendo auditorias nas Ilhas Fiji em outubro passado e agora está trabalhando como auditor freelancer em sustentabilidade...",
+        "image": "/img/fiji.webp",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7001352130213163008/"
+      },
+      {
+        "title": "Egresso de Agronomia residente no Canada presta auditoria pelo mundo",
+        "description": "Matéria presente na página 11 do jornal, conta a trajetória de Leandro Garcia e a importância da graduação para seu sucesso profissional...",
+        "image": "/img/minuano.webp",
+        "url": "https://issuu.com/jornalminuanobage/docs/20230216"
+      }
+    ]
   }
 }
