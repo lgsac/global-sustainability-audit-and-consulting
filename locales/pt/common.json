@@ -279,5 +279,22 @@
   },
   "clients": {
     "title": "Clientes"
+  },
+  "news": {
+    "title": "News",
+    "articles": [
+      {
+        "title": "Auditorias em Fiji",
+        "description": "Conheça Leandro Pires Garcia, brasileiro formado pelo certificado de pós-graduação em Gestão Agroempresarial do Campus Regional de Simcoe/Norfolk, que passou um tempo fazendo auditorias nas Ilhas Fiji em outubro passado e agora está trabalhando como auditor freelancer em sustentabilidade...",
+        "image": "/img/fiji.webp",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7001352130213163008/"
+      },
+      {
+        "title": "Egresso de Agronomia residente no Canada presta auditoria pelo mundo",
+        "description": "Matéria presente na página 11 do jornal, conta a trajetória de Leandro Garcia e a importância da graduação para seu sucesso profissional...",
+        "image": "/img/minuano.webp",
+        "url": "https://issuu.com/jornalminuanobage/docs/20230216"
+      }
+    ]
   }
 }

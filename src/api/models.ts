@@ -40,3 +40,10 @@ export interface Testimony {
   office: string;
   testimony: string
 }
+
+export interface Article {
+  title: string;
+  description: string;
+  image: string;
+  url: string;
+}

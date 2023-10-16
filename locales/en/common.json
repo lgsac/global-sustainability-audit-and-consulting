@@ -278,5 +278,22 @@
   },
   "clients": {
     "title": "Clients"
+  },
+  "news": {
+    "title": "News",
+    "articles": [
+      {
+        "title": "Audits in Fiji",
+        "description": "Meet Leandro Pires Garcia, a Brazillian graduate of Simcoe/Norfolk Regional Campus' Agri-Business Management graduate certificate, who spent time doing audits in Fiji Islands this past October and is now working as a freelance auditor in sustainability....",
+        "image": "/img/fiji.webp",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7001352130213163008/"
+      },
+      {
+        "title": "Agronomy graduate residing in Canada audits around the world",
+        "description": "Article on page 11 of the newspaper tells the story of Leandro Garcia and the importance of graduation for his professional success...",
+        "image": "/img/minuano.webp",
+        "url": "https://issuu.com/jornalminuanobage/docs/20230216"
+      }
+    ]
   }
 }
