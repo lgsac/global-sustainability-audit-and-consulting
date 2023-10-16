@@ -90,12 +90,12 @@ const Home: React.FunctionComponent = () => {
         </div>
       </Section>
       <Section backgroundColor="bg-white">
-        <div className="container relative">
+        <div className="container">
           <Title align="text-center">{t("news.title")}</Title>
-          <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-4 justify-center mt-6 lg: mt-0">
+          <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-4 justify-center">
             {articles.map((article: Article, index: number) => {
               return (
-                <div key={index} className="card w-96 bg-base-100 shadow-xl">
+                <div key={index} className="card w-full lg:w-96 bg-base-100 shadow-xl mt-6 lg: mt-0">
                   <figure className="h-60 bg-center bg-cover" style={{backgroundImage: `url(${article.image})`}}>
                   </figure>
                   <div className="card-body">
