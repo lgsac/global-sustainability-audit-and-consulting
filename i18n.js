@@ -4,6 +4,6 @@ module.exports = {
   pages: {
     "*": ["common"],
     "/[lang]": ["home"],
-    "/[lang]/services-provided": ["services-provided"]
+    "/[lang]/[slug]": ["common"]
   },
 }

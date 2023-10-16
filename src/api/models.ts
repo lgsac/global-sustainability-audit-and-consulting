@@ -20,6 +20,7 @@ export interface Period {
 }
 
 export interface Service {
+  slug?: string;
   name: string;
   resume: string;
   description?: string;

@@ -3,7 +3,7 @@ import type { Paths, I18n, Translate } from 'next-translate'
 export interface TranslationsKeys {
   common: Paths<typeof import('./locales/en/common.json')>
   home: Paths<typeof import('./locales/en/home.json')>
-  services: Paths<typeof import('./locales/en/services-provided.json')>
+  service: Paths<typeof import('./locales/en/common.json')>
 }
 
 export interface TypeSafeTranslate<Namespace extends keyof TranslationsKeys>

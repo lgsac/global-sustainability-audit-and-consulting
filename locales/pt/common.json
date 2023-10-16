@@ -17,6 +17,7 @@
     "subtitle": "Selecione a linguagem"
   },
   "view-more": "Ver mais",
+  "step": "Etapas",
   "footer": {
     "copyright": "Todos os direitos reservados." 
   },
@@ -203,20 +204,21 @@
     "title": "Entenda como são realizadas a auditoria e consultoria agrícola",
     "services-provided": [
       {
+        "slug": "auditoria",
         "name": "Auditoria",
         "resume": "A empresa oferece serviços de auditoria para organismos de certificação acreditados em normas de sustentabilidade, incluindo Bonsucro, FoodChain ID Non-GMO, FSA, ProTerra, RSPO, RTRS, SAC 2017 e ISCC.",
         "activities": [],
         "description": "Organismos de certificação acreditados para normas de sustentabilidade podem contratar os serviços da empresa para condução de seus processos de auditoria. A empresa está habilitada para condução de auditorias em normas como: Bonsucro, FoodChain ID Non-GMO, FSA, Padrão ProTerra, RSPO, RTRS (The Round Table on Responsible Soy), SAC 2017 e ISCC (The International Sustainability and Carbon Certification).",
         "images": {
           "card": "/img/benson-hill-proterra.webp",
-          "banner": ""
+          "banner": "/img/auditoria-1.webp"
         },
         "steps": [
           "Solicitação/Contrato",
           "Auditoria",
           "Resultados e relatórios",
-          "Emissão de certificado ou documentos equivalentes",
-          "Fechamento de não-conformidades"
+          "Fechamento de não-conformidades",
+          "Emissão de certificado ou documentos equivalentes"
         ],
         "testimonials": [
           {
@@ -227,20 +229,21 @@
         ]
       },
       {
+        "slug": "consultoria",
         "name": "Consultoria",
         "resume": "O processo envolve avaliações alinhadas às metas dos clientes, podendo incluir auditorias internas para avaliar seus sistemas. Os serviços são personalizados para atender às necessidades específicas.",
         "activities": [],
         "description": "Envolve a realização de avaliações com base nas demandas dos e seus objetivos. Auditorias internas podem ser necessárias na avaliação da sistemas utilizados por clientes. Dessa forma os serviços prestados são adaptados às demandas específicas dos clientes. Dependendo da demanda do cliente, treinamentos são desenvolvidos com o objetivo de deixar claro cada requisito de sustentabilidade estabelecido pelas normas de sustentabilidade existentes.",
         "images": {
           "card": "/img/home-working-1.webp",
-          "banner": ""
+          "banner": "/img/banner-consultoria.webp"
         },
         "steps": [
           "Solicitação/Contrato",
           "Auditoria",
           "Resultados e relatórios",
-          "Emissão de certificado ou documentos equivalentes",
-          "Fechamento de não-conformidades"
+          "Fechamento de não-conformidades",
+          "Emissão de certificado ou documentos equivalentes"
         ],
         "testimonials": [
           {
@@ -251,6 +254,7 @@
         ]
       },
       {
+        "slug": null,
         "name": "Serviços agrícolas prestados",
         "resume": null,
         "activities": [
