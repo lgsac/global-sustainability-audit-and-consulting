@@ -9,7 +9,7 @@ const Footer: React.FC = () =>  {
 
   return(
     <>
-      <div id="footer" className="mt-80">
+      <div id="footer">
         <div className="h-48 lg:h-72 bg-green-600 flex items-center justify-center">
           <div className="flex-1"></div>
           <Link href={`/${lang}`} className=" m-1.5 p-1.5 flex-1">
