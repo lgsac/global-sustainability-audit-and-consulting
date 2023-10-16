@@ -11,9 +11,13 @@ import Section from '#/components/Section';
 import SwiperCarousel from '#/components/SwiperCarousel';
 import { SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import { Article } from '#/api/models';
+import Link from 'next/link';
 
 const Home: React.FunctionComponent = () => {
   const { t } = useTranslation('common');
+  const articles: any = t("news.articles", {}, { returnObjects: true });
+
 
   const certifications = [
     "Padrão Bonsucro",
@@ -84,6 +88,28 @@ const Home: React.FunctionComponent = () => {
             })}
           </div>
         </div>
+      </Section>
+      <Section backgroundColor="bg-white">
+        <div className="container">
+          <Title align="text-center">{t("news.title")}</Title>
+          <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-4 justify-center">
+            {articles.map((article: Article, index: number) => {
+              return (
+                <div key={index} className="card w-full lg:w-96 bg-base-100 shadow-xl mt-6 lg: mt-0">
+                  <figure className="h-60 bg-center bg-cover" style={{backgroundImage: `url(${article.image})`}}>
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title">{article.title}</h2>
+                    <p>{article.description}</p>
+                    <Link href={article.url} target="_blank" className="mt-4">
+                      <button className="btn bg-green-600 btn-block text-white hover:bg-green-500">{t("view-more")}</button>
+                    </Link>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>          
       </Section>
       <Footer />     
     </>
