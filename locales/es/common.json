@@ -270,5 +270,10 @@
         "testimonials": []
       }
     ]
+  },
+  "certification": {
+    "importance-title": "¿Por qué realizar la certificación?",
+    "description": "Hay varios problemas que enfrenta la sociedad moderna, entre ellos la crisis migratoria, la pobreza extrema, la desigualdad social y la inestabilidad política. Estos problemas están directamente relacionados con el cambio climático y el descuido de las cuestiones socioambientales. Para mantener su capacidad productiva, gestionar adecuadamente los recursos disponibles y satisfacer las expectativas de los clientes y grupos de interés, las entidades buscan implementar políticas y sistemas de gestión de la sostenibilidad. A través de la certificación de sostenibilidad, las empresas demuestran la eficacia de sus sistemas en los ámbitos ambiental, social y económico. Se requieren auditorías para evaluar procesos y obtener certificación, reforzando la imparcialidad del proceso. Las organizaciones certificadas, además de gestionar mejor sus recursos, pueden comunicar de forma concisa su compromiso con la sostenibilidad. Y de esta forma obtener ventajas desde el punto de vista comercial.",
+    "certification-title": "Certificacións"
   }
 }
