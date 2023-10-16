@@ -33,33 +33,33 @@ const Header: React.FC = () =>  {
     <div className="bg-green-600 fixed top-0 left-0 right-0 z-50">
       <div className="navbar bg-green-600 container ">
         <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <details  className="dropdown">
+            <summary tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </label>
+            </summary>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-green-600 rounded w-52">
               <li>
-                <Link className="my-2 p-3" href={`#${t("menu.about-id")}`}>
+                <Link className="my-2 p-3" href={`/${lang}/#${t("menu.about-id")}`}>
                   {t("menu.about")}
                 </Link>
               </li>
               <li>
-                <Link className="my-2 p-3" href={`#${t("menu.services-id")}`}>
+                <Link className="my-2 p-3" href={`/${lang}/#${t("menu.services-id")}`}>
                   {t("menu.services")}
                 </Link>
               </li>
               <li>
-                <Link className="my-2 p-3" href={`#${t("menu.clients-id")}`}>
+                <Link className="my-2 p-3" href={`/${lang}/#${t("menu.clients-id")}`}>
                   {t("menu.clients")}
                 </Link>
               </li>
               <li>
-                <Link className="my-2 p-3" href={`#${t("menu.certifications-id")}`}>
+                <Link className="my-2 p-3" href={`/${lang}/#${t("menu.certifications-id")}`}>
                   {t("menu.certifications")}
                 </Link>
               </li>
             </ul>
-          </div>
+          </details>
           <Link href={`/${lang}`} className=" m-1.5 p-1.5">
             <span className="sr-only">Global sustainability audit and consulting</span>
             <Image
@@ -75,22 +75,22 @@ const Header: React.FC = () =>  {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link className="mx-2" href={`#${t("menu.about-id")}`}>
+              <Link className="mx-2" href={`/${lang}/#${t("menu.about-id")}`}>
                 {t("menu.about")}
               </Link>
             </li>
             <li>
-              <Link className="mx-2" href={`#${t("menu.services-id")}`}>
+              <Link className="mx-2" href={`/${lang}/#${t("menu.services-id")}`}>
                 {t("menu.services")}
               </Link>
             </li>
             <li>
-              <Link className="mx-2" href={`#${t("menu.clients-id")}`}>
+              <Link className="mx-2" href={`/${lang}/#${t("menu.clients-id")}`}>
                 {t("menu.clients")}
               </Link>
             </li>
             <li>
-              <Link className="mx-2" href={`#${t("menu.certifications-id")}`}>
+              <Link className="mx-2" href={`/${lang}/#${t("menu.certifications-id")}`}>
                 {t("menu.certifications")}
               </Link>
             </li>
