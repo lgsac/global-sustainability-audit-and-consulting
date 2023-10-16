@@ -1,9 +1,12 @@
+"use client"
+
 import useTranslation from 'next-translate/useTranslation';
 import React from 'react';
 import Title from '../Title';
 import Section from '../Section';
 import { Service } from '#/api/models';
 import Link from 'next/link';
+import Gallery from '../Gallery';
 
 const ServicesProvided = () =>  {
   const { t, lang } = useTranslation('common');
@@ -44,6 +47,9 @@ const ServicesProvided = () =>  {
             )
           })}
         </div>
+      </div>
+      <div className="mt-20">
+        <Gallery />
       </div>
     </Section>
   )
