@@ -49,7 +49,7 @@ const Home: React.FunctionComponent = () => {
             {certifications.map((certification: string, index: number) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="card bg-base-100 shadow-xl min-h-max">
+                  <div className="card bg-slate-200 shadow-xl min-h-max">
                     <div className="card-body flex flex-row items-center">
                       <h3 className="card-title flex-1 my-2 ml-2">{certification}</h3>
                     </div>
