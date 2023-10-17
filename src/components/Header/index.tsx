@@ -2,13 +2,14 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import useTranslation from 'next-translate/useTranslation';
 import { languageFlagPath } from './labels';
 import { LANGUAGE } from '#/api/enums';
 import React, { useEffect, useState, useCallback} from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 
 const Header: React.FC = () =>  {
-  const { t, lang } = useTranslation('common');
+  const t = useTranslations();
+  const lang = useLocale();
   const [ currentLanguage, setCurrentLanguage] = useState<any>()
 
   const changeLanguageButton = useCallback(() => {

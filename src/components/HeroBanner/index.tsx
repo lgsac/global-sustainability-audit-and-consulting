@@ -1,8 +1,8 @@
-import useTranslation from 'next-translate/useTranslation';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 const HeroBanner: React.FC = () =>  {
-  const { t } = useTranslation('common');
+  const t = useTranslations();
 
   return(
     <div className="hero min-h-screen" style={{backgroundImage: 'url(/img/hero-background.webp)'}}>

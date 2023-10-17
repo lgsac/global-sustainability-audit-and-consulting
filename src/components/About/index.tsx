@@ -1,20 +1,44 @@
 "use client"
 
-import useTranslation from 'next-translate/useTranslation';
 import React from 'react';
 import Title from '../Title';
 import Section from '../Section';
 import Image from 'next/image';
 import { SwiperSlide } from 'swiper/react';
-import { Experience } from '#/api/models';
 import { EXPERIENCE_TYPE } from '#/api/enums';
 import SwiperCarousel from '../SwiperCarousel';
 import { formatPeriod } from '#/utils/date';
+import { useTranslations, useLocale } from 'next-intl';
+import { Hashmap } from '#/api/models';
 
 const About = () =>  {
-  const { t, lang } = useTranslation('common');
-  const qualities: any = t("about.ceo.qualities", {}, { returnObjects: true });
-  const experiences: any = t("about.ceo.curriculum.experiences", {}, { returnObjects: true });
+  const lang = useLocale();
+  const t = useTranslations();
+  const quality = useTranslations("about.ceo.qualities");
+  const qualities = [ "0", "1", "2", "3", '4', "5", "6" ] as const;
+  const experience = useTranslations("about.ceo.curriculum.experiences");
+  const experiences = [ 
+    "computing", 
+    "agronomist", 
+    "agronomy", 
+    "specialization",
+    "supervisor", 
+    "field", 
+    "lead",
+    "management",
+    "auditor",
+    "courses" 
+  ]
+
+  const getActivitieEntries: Hashmap<string[]> = {
+    agronomist: ["0", "1", "2", "3"],
+    supervisor: ["0", "1", "2", "3", "4"],
+    field: ["0", "1"],
+    lead: ["0", "1", "2"],
+    management: ["0", "1", "2", "3"],
+    auditor: ["0", "1", "2", "3"],
+    courses: ["0", "1", "2", "3","4", "5", "6", "7","8", "9", "10", "11","12", "13", "14", "15"],
+  };
 
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.about-id")}>
@@ -26,7 +50,7 @@ const About = () =>  {
             <Title align="text-left">{t("about.ceo.title")}</Title>
             <ul className="marker:text-green-600 list-disc pl-5 space-y-2">
               {qualities.map((value: string, i: number) => (
-                <li key={i}>{value}</li> 
+                <li key={i}>{quality(value)}</li>
               ))}
             </ul>
           </div>
@@ -57,28 +81,28 @@ const About = () =>  {
         <div className="container">
           <Title align="text-left">{t("about.ceo.curriculum.title")}</Title>
           <SwiperCarousel sliderPerView={{ sm: 1.2, md: 2.3, lg: 3 }}>
-            {experiences.map((experience: Experience, index: number) => {
+            {experiences.map((value: any, index: number) => {
             return (
               <SwiperSlide key={index}>
                 <div className="card bg-base-100 shadow-xl min-h-max">
                   <div className="card-body">
                     <div className="flex justify-between items-center">
-                      <span className="text-green-600 font-bold text-2xl">{experience.period.ingress.slice(0, 4)}</span>
+                      <span className="text-green-600 font-bold text-2xl">{experience(`${value}.period.ingress`).slice(0, 4)}</span>
                       <Image
-                        src={experience.type === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
+                        src={experience(`${value}.type`) === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
                         alt=""
                         className="bg-green-600 p-2 rounded-lg"
-                        width={experience.type === EXPERIENCE_TYPE.WORK ? 30 : 35}
+                        width={experience(`${value}.type`) === EXPERIENCE_TYPE.WORK ? 30 : 35}
                         height={0}
                         priority
                       />
                     </div>
-                    <h3 className="card-title flex-1 my-2">{experience.name}</h3>
-                    {experience.period.conclusion && (
-                      <span className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion)}</span>
+                    <h3 className="card-title flex-1 my-2">{experience(`${value}.name`)}</h3>
+                    {experience(`${value}.period.conclusion`) && (
+                      <span className="text-lg font-semibold">{formatPeriod(lang, experience(`${value}.period.ingress`), experience(`${value}.period.conclusion`))}</span>
                     )}
-                    <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
-                    {experience.activities.length > 0 && (
+                    <span className="text-base -mt-2">{experience(`${value}.company`)}, {experience(`${value}.location`)}</span>
+                    {experience(`${value}.activities`) && (
                       <>
                         <button 
                           className="btn btn-ghost text-green-600 w-28 px-0 mt-2"
@@ -97,24 +121,24 @@ const About = () =>  {
                         <dialog id={`modal-${index}`} className="modal">
                           <div className="modal-box w-11/12 max-w-5xl">
                             <div className="flex justify-between items-center">
-                              <span className="text-green-600 font-bold text-2xl">{experience.period.ingress.slice(0, 4)}</span>
+                              <span className="text-green-600 font-bold text-2xl">{experience(`${value}.period.ingress`).slice(0, 4)}</span>
                               <Image
-                                src={experience.type === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
+                                src={experience(`${value}.type`) === EXPERIENCE_TYPE.WORK ? "/work.svg" : "/education.svg" }
                                 alt=""
                                 className="bg-green-600 p-2 rounded-lg"
-                                width={experience.type === EXPERIENCE_TYPE.WORK ? 30 : 35}
+                                width={experience(`${value}.type`) === EXPERIENCE_TYPE.WORK ? 30 : 35}
                                 height={0}
                                 priority
                               />
                             </div>
-                            <h3 className="card-title flex-1 my-2">{experience.name}</h3>
-                            {experience.period.conclusion && (
-                              <h6 className="text-lg font-semibold">{formatPeriod(lang, experience.period.ingress, experience.period.conclusion)}</h6>
+                            <h3 className="card-title flex-1 my-2">{experience(`${value}.name`)}</h3>
+                            {experience(`${value}.period.conclusion`) && (
+                              <h6 className="text-lg font-semibold">{formatPeriod(lang, experience(`${value}.period.ingress`), experience(`${value}.period.conclusion`))}</h6>
                             )}                            
-                            <span className="text-base -mt-2">{experience.company}, {experience.location}</span>
+                            <span className="text-base -mt-2">{experience(`${value}.company`)}, {experience(`${value}.location`)}</span>
                             <ul className="marker:text-green-600 list-disc pl-5 my-7 space-y-2">
-                              {experience.activities.map((value: string, i: number) => (
-                                <li key={i}>{value}</li> 
+                              {getActivitieEntries[value]?.map((actv: string, i: number) => (
+                                <li key={i}>{experience(`${value}.activities.${actv}`)}</li>
                               ))}
                             </ul>
                             <div className="modal-action">
