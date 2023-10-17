@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import useTranslation from 'next-translate/useTranslation';
 import React from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 
 const Footer: React.FC = () =>  {
-  const { t, lang } = useTranslation('common');
+  const t = useTranslations();
+  const lang = useLocale();
   const currentYear = new Date().getFullYear();
 
   return(

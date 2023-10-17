@@ -34,6 +34,7 @@
   "devDependencies": {
     "@next/bundle-analyzer": "13.4.6",
     "daisyui": "^3.9.2",
+    "next-intl": "^2.20.2",
     "next-translate-plugin": "^2.4.4",
     "next-translate-routes": "^1.10.2"
   }
