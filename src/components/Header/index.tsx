@@ -31,7 +31,7 @@ const Header: React.FC = () =>  {
   },[changeLanguageButton])
 
   return (
-    <div className="bg-green-600 fixed top-0 left-0 right-0 z-50">
+    <div className="bg-green-600 fixed top-0 left-0 w-screen z-50">
       <div className="navbar bg-green-600 container ">
         <div className="navbar-start">
           <details  className="dropdown text-white">

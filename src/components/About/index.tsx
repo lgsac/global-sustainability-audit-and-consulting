@@ -65,12 +65,12 @@ const About = () =>  {
             />
           </div>
         </div>
-        <div className="-mt-8 lg:-mt-28 absolute items-center flex">
+        <div className="-mt-8 lg:-mt-28 absolute items-center justify-center flex mr-3 md:mr-0">
           <span className="text-white bg-green-600 py-3 px-8 rounded">{t("about.ceo.member")}</span>
           <Image
             src="/list.svg"
             alt="ícone certificado"
-            className="bg-green-600 p-4 -ml-4 rounded-lg"
+            className="bg-green-600 p-4 -ml-4 rounded-lg hidden md:flex"
             width={70}
             height={0}
             priority

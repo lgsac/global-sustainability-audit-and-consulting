@@ -56,3 +56,19 @@ body {
   opacity: 0.5;
   pointer-events: none;
 }
+
+@media screen and (max-width: 720px) {
+  .swiper-button {
+    padding-top: 10px;
+  }
+  
+  .swiper-btn-prev {
+    padding-left: 2.5%;
+    height: calc(100% + 10px);
+  }
+  
+  .swiper-btn-next {
+    padding-right: 2.5%;
+    height: calc(100% + 10px);
+  }
+}

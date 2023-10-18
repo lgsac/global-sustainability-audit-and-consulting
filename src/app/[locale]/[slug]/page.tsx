@@ -26,7 +26,7 @@ const Service: React.FunctionComponent = () => {
           <p>{currentService("description")}</p>
         </div>
         <div 
-          className="w-full mb-20 lg:mb-0 h-80 lg:h-96 bg-center bg-cover rounded-tl-full rounded-br-full" 
+          className="w-full mb-0 h-80 lg:h-96 bg-center bg-cover rounded-tl-lg rounded-br-lg md:rounded-tl-full md:rounded-br-full" 
           style={{backgroundImage: `url(${currentService("images.banner")})`}}
         >
         </div>
