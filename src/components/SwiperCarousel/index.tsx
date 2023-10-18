@@ -57,10 +57,10 @@ const SwiperCarousel: React.FC<SwiperCarouselProps> = ({ children, sliderPerView
           swiper.navigation.update();
         }}
         centeredSlides={centeredSlides}
-        autoHeight={true}
+        autoHeight={false}
         spaceBetween={15}
         breakpoints={{
-          480: {
+          300: {
             slidesPerView: sliderPerView.sm,
           },
           720: {

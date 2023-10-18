@@ -46,7 +46,7 @@ const Home: React.FunctionComponent = () => {
           <p className="text-sm">{t("certification.description")}</p>
         </div>
         <div 
-          className="w-full lg:w-4/5 mb-20 lg:mb-0 h-80 lg:h-96 bg-center bg-cover rounded-tl-full rounded-br-full" 
+          className="w-full lg:w-4/5 mb-0 h-80 lg:h-96 bg-center bg-cover rounded-tl-lg rounded-br-lg md:rounded-tl-full md:rounded-br-full" 
           style={{backgroundImage: `url(/img/soja.webp)`}}
         >
         </div>
