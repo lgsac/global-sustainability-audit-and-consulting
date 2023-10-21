@@ -34,7 +34,9 @@
         "3": "Knowledge of good agricultural practices",
         "4": "Good organizational skills and positive attitude",
         "5": "Bachelor in agronomy",
-        "6": "Postgraduate certificate in agribusiness management"
+        "6": "Postgraduate certificate in agribusiness management",
+        "7":"Use of precision tools - GPS/drones",
+        "8":"experience with application of planting inputs and soil preparation"
       },
       "member": "Member of the Ontario Institute of Agrologists",
       "curriculum": {
@@ -239,10 +241,9 @@
         },
         "steps": {
           "0": "Request/Contract",
-          "1":"Audit",
-          "2":"Results and reports",
-          "3":"Closing non-conformities",
-          "4":"Issuance of certificate or equivalent documents"
+          "1": "Service scheduling",
+          "2": "Evaluation and results",
+          "3": "Closing non-conformities"
         },
         "testimonials": {
           "0": {

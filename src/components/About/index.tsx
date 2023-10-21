@@ -15,7 +15,7 @@ const About = () =>  {
   const lang = useLocale();
   const t = useTranslations();
   const quality = useTranslations("about.ceo.qualities");
-  const qualities = [ "0", "1", "2", "3", '4', "5", "6" ] as const;
+  const qualities = [ "0", "1", "2", "3", '4', "5", "6", "7", "8" ] as const;
   const experience = useTranslations("about.ceo.curriculum.experiences");
   const experiences = [ 
     "computing", 
@@ -28,7 +28,7 @@ const About = () =>  {
     "management",
     "auditor",
     "courses" 
-  ]
+  ] as const;
 
   const getActivitieEntries: Hashmap<string[]> = {
     agronomist: ["0", "1", "2", "3"],

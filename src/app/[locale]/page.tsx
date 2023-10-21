@@ -10,7 +10,6 @@ import {useTranslations} from 'next-intl';import Section from '#/components/Sect
 import SwiperCarousel from '#/components/SwiperCarousel';
 import { SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import { Article } from '#/api/models';
 import Link from 'next/link';
 
 const Home: React.FunctionComponent = () => {

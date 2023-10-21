@@ -12,6 +12,7 @@ const ServicesProvided = () =>  {
   const lang = useLocale();
   const service = useTranslations("services.services-provided");
   const services = [ "auditoria", "consultancy", "agricultural" ] as string[];
+  const activities = [ "0", "1", "2" ] as string[];
 
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.services-id")}>
@@ -30,7 +31,7 @@ const ServicesProvided = () =>  {
                       <p>{service(`${value}.resume`)}</p>
                       <div className="card-actions mt-4">
                         <Link 
-                          href={`/${lang}/${service(`${value}.slug`)}`}
+                          href={`/${lang}/${service(`${value}.slug`)}/#`}
                         >
                           <button className="btn bg-green-600 hover:bg-green-500 border-0 text-white">{t("view-more")}</button>
                         </Link>
@@ -38,7 +39,7 @@ const ServicesProvided = () =>  {
                     </>
                   ) : (
                     <ul className="marker:text-green-600 list-disc pl-5 my-7 space-y-2">
-                    {(["0", "1", "2"]).map((act: string, i: number) => (
+                    {activities.map((act: string, i: number) => (
                       <li key={i}>{service(`${value}.activities.${act}`)}</li> 
                     ))}
                   </ul>
