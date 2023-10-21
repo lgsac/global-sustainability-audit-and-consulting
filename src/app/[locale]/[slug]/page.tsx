@@ -3,7 +3,6 @@
 import Header from '#/components/Header';
 import Footer from '#/components/Footer';
 import { useParams } from 'next/navigation';
-import { Testimony } from '#/api/models';
 import Title from '#/components/Title';
 import Section from '#/components/Section';
 import SwiperCarousel from '#/components/SwiperCarousel';
@@ -11,11 +10,18 @@ import { SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import Gallery from '#/components/Gallery';
 import { useTranslations } from 'next-intl';
+import { Hashmap } from '#/api/models';
 
 const Service: React.FunctionComponent = () => {
   const t = useTranslations();
   const { slug } = useParams();
   const currentService = useTranslations(`services.services-provided.${slug === "consultoria" ? "consultancy" : slug}`);
+  const testimonials = [ "0" ] as const;
+  const stepsEntries: Hashmap<string[]> = {
+    consultancy: ["0", "1", "2", "3"],
+    consultoria: ["0", "1", "2", "3"],
+    auditoria: ["0", "1", "2", "3", "4"],
+  }
 
   return (
     <>
@@ -35,7 +41,7 @@ const Service: React.FunctionComponent = () => {
         <div className="container relative">
           <Title align="text-center">{t("step")}</Title>
           <SwiperCarousel centeredSlides={true} sliderPerView={{ sm: 1.2, md: 2.2, lg: 4 }}>
-          {["0", "1", "2", "3", "4"].map((step: string, index: number) => {
+          {stepsEntries[slug].map((step: string, index: number) => {
               return (
                 <SwiperSlide key={index}>
                   <div className="card bg-base-100 shadow-xl min-h-max">
@@ -55,7 +61,7 @@ const Service: React.FunctionComponent = () => {
       <Section backgroundColor="bg-slate-200">
           <div className="container relative">
             <SwiperCarousel sliderPerView={{ sm: 1, md: 1, lg: 1 }}>
-              {["0"].map((testimony: string) => {
+              {testimonials.map((testimony: string) => {
                 return (
                   <SwiperSlide key={testimony}>
                     <div className="flex flex-col justify-center text-center text-gray-600">

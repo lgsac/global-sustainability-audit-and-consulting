@@ -31,8 +31,8 @@ const Header: React.FC = () =>  {
   },[changeLanguageButton])
 
   return (
-    <div className="bg-green-600 fixed top-0 left-0 w-screen z-50">
-      <div className="navbar bg-green-600 container ">
+    <div className="bg-green-600 fixed top-0 left-0 w-full lg: z-50">
+      <div className="navbar bg-green-600 container">
         <div className="navbar-start">
           <details  className="dropdown text-white">
             <summary tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Header: React.FC = () =>  {
               </li>
             </ul>
           </details>
-          <Link href={`/${lang}`} className=" m-1.5 p-1.5">
+          <Link href={`/${lang}/#`} className=" m-1.5 p-1.5">
             <span className="sr-only">Global sustainability audit and consulting</span>
             <Image
               src="/logo-gsac.svg"

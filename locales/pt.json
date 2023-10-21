@@ -35,7 +35,9 @@
         "3":"Conhecimento de boas práticas agrícolas",
         "4":"Boa capacidade de organização e atitude positiva",
         "5":"Bacharel em agronomia",
-        "6":"Certificado de pós graduação em gestão de agronegócios"
+        "6":"Certificado de pós graduação em gestão de agronegócios",
+        "7":"Uso de ferramentas de precisão - GPS/drones",
+        "8":"experiência com aplicação de insumos plantios e preparo de solo"
       },
       "member": "Membro do Ontario Institute of Agrologists",
       "curriculum": {
@@ -201,7 +203,7 @@
     }
   },
   "services": {
-    "title": "Entenda como são realizadas a auditoria e consultoria agrícola",
+    "title": "Entenda como são realizados os serviços",
     "services-provided": {
       "auditoria":{
         "slug": "auditoria",
@@ -217,7 +219,7 @@
           "0": "Solicitação/Contrato",
           "1": "Auditoria",
           "2": "Resultados e relatórios",
-          "3":  "Fechamento de não-conformidades",
+          "3": "Fechamento de não-conformidades",
           "4": "Emissão de certificado ou documentos equivalentes"
         },
         "testimonials": {
@@ -240,10 +242,9 @@
         },
         "steps": {
           "0": "Solicitação/Contrato",
-          "1": "Auditoria",
-          "2": "Resultados e relatórios",
-          "3":  "Fechamento de não-conformidades",
-          "4": "Emissão de certificado ou documentos equivalentes"
+          "1": "Agendamento do serviço",
+          "2": "Avaliação e resultados",
+          "3": "Fechamento de não-conformidades"
         },
         "testimonials": {
           "0": {
@@ -281,7 +282,7 @@
     "title": "Clientes"
   },
   "news": {
-    "title": "News",
+    "title": "Notícias",
     "articles": {
       "fiji": {
         "title": "Auditorias em Fiji",

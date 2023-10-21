@@ -34,7 +34,9 @@
         "3": "Conocimiento de buenas prácticas agrícolas",
         "4": "Buenas habilidades organizativas y actitud positiva",
         "5": "Licenciatura en Agronomía",
-        "6": "Certificado de posgrado en gestión de agronegocios"
+        "6": "Certificado de posgrado en gestión de agronegocios",
+        "7":"Uso de herramientas de precisión - GPS/drones",
+        "8": "experiencia en aplicación de insumos de siembra y preparación del suelo"
       },
       "member": "Miembro del Ontario Institute of Agrologists",
       "curriculum": {
@@ -239,10 +241,9 @@
         },
         "steps": {
           "0": "Solicitud/Contrato",
-          "1": "Auditoría",
-          "2": "Resultados e informes",
-          "3": "Cierre de no conformidades",
-          "4": "Emisión de certificado o documentos equivalentes"
+          "1": "Programación de servicios",
+          "2": "Evaluación y resultados",
+          "3": "Cierre de no conformidades"
         },
         "testimonials": {
           "0": {
@@ -280,7 +281,7 @@
     "title": "Clientes"
   },
   "news": {
-    "title": "News",
+    "title": "Noticias",
     "articles": {
       "fiji": {
         "title": "Auditoria en Fiji",

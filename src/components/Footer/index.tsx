@@ -13,7 +13,7 @@ const Footer: React.FC = () =>  {
       <div id="footer">
         <div className="h-48 lg:h-72 bg-green-600 flex items-center justify-center">
           <div className="flex-1"></div>
-          <Link href={`/${lang}`} className=" m-1.5 p-1.5 flex-1">
+          <Link href={`/${lang}/#`} className=" m-1.5 p-1.5 flex-1">
             <span className="sr-only">Global sustainability audit and consulting</span>
             <Image
               src="/logo-gsac.svg"
@@ -35,7 +35,7 @@ const Footer: React.FC = () =>  {
             />
           </div>
         </div>
-        <div className="flex h-10 justify-center items-center bg-black">
+        <div className="flex h-10 justify-center items-center bg-black text-white">
           <span>
               GSAC {currentYear} - {t("footer.copyright")}
           </span>
