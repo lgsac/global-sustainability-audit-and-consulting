@@ -42,11 +42,11 @@ const About = () =>  {
 
   return(
     <Section backgroundColor="bg-white" sectionId={t("menu.about-id")}>
-      <div className="container relative z-20">
+      <div className="container relative z-20 lg:inherit xl:relative mb-0 lg:mb-36 xl:mb-0">
         <Title align="text-left">{t("title")}</Title>
         <p>{t("about.description")}</p>
         <div className="flex flex-col lg:flex-row">
-          <div className="mt-20">
+          <div className="mt-10">
             <Title align="text-left">{t("about.ceo.title")}</Title>
             <ul className="marker:text-green-600 list-disc pl-5 space-y-2">
               {qualities.map((value: string, i: number) => (
@@ -65,7 +65,7 @@ const About = () =>  {
             />
           </div>
         </div>
-        <div className="-mt-8 lg:-mt-28 absolute items-center justify-center flex mr-3 md:mr-0">
+        <div className="-mt-8 xl:-mt-28 absolute items-center justify-center flex mr-3 md:mr-0">
           <span className="text-white bg-green-600 py-3 px-8 rounded">{t("about.ceo.member")}</span>
           <Image
             src="/list.svg"
